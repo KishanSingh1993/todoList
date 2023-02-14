@@ -11,10 +11,9 @@ ToDoList App demonstrates modern Android development with Hilt, Coroutines, Live
 </p>
 
 # Screenshots:
-<img src="/screenshots/day1.png" height="400px"/>  
-<img src="/screenshots/night2.png" height="400px"/> 
-<img src="/screenshots/day3.png" height="400px"/> 
-<img src="/screenshots/day4.png" height="400px"/>  
+<img src="/screenshots/day1.png" height="400px"/> <img src="/screenshots/night2.png" height="400px"/>
+<img src="/screenshots/day3.png" height="400px"/> <img src="/screenshots/day4.png" height="400px"/>
+  
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 26
