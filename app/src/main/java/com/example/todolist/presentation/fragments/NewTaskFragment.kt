@@ -1,5 +1,6 @@
 package com.example.todolist.presentation.fragments
 
+import android.annotation.SuppressLint
 import android.app.*
 import android.content.Context
 import android.content.Intent
@@ -71,6 +72,7 @@ class NewTaskFragment : Fragment() {
         loadAllCategories()
     }
 
+    @SuppressLint("SetTextI18n")
     private fun initUpdate(){
         taskInfo = args.newTaskArg!!.taskInfo
         categoryInfo = args.newTaskArg!!.categoryInfo[0]
@@ -223,6 +225,7 @@ class NewTaskFragment : Fragment() {
         isCategorySelected = true
     }
 
+    @SuppressLint("SuspiciousIndentation")
     private fun addTask() {
         val date = Date()
         Log.d("DATA", taskInfo.date.seconds.toString())
