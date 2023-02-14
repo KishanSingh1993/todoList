@@ -3,6 +3,9 @@ package com.example.todolist.data.db
 import androidx.room.TypeConverter
 import java.util.*
 
+/*
+* Date Converter
+* */
 class DateConverter {
     @TypeConverter
      fun fromTimeStamp(value : Long) : Date = Date(value)
