@@ -24,6 +24,8 @@ import java.util.*
 import javax.inject.Inject
 import javax.inject.Named
 
+//BaseFragment
+
 @AndroidEntryPoint
 class BaseFragment : ParentFragment() {
 

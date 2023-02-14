@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatDelegate
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
 
+//ToDoListApplication
+
 @HiltAndroidApp
 class ToDoListApplication : Application(){
     @Inject

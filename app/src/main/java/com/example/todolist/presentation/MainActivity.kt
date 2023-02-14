@@ -13,6 +13,9 @@ import com.example.todolist.R
 import com.example.todolist.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
+
+//MainActivity
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration

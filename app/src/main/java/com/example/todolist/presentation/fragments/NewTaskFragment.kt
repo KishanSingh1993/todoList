@@ -303,6 +303,9 @@ class NewTaskFragment : Fragment() {
         datePicker.show(childFragmentManager,"TAG")
     }
 
+    /*
+    * Alarm Manager Work
+    * */
     private fun setAlarm(taskInfo: TaskInfo) {
         val alarmManager = activity?.getSystemService(Context.ALARM_SERVICE) as AlarmManager
         val intent = Intent(requireContext(), AlarmReceiver::class.java)

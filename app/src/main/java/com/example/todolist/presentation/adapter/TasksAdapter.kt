@@ -11,6 +11,11 @@ import com.example.todolist.databinding.ItemTaskBinding
 import com.example.todolist.data.model.TaskCategoryInfo
 import com.example.todolist.data.model.TaskInfo
 
+
+/*
+* TasksAdapter
+* */
+
 class TasksAdapter:
     RecyclerView.Adapter<TasksAdapter.MyViewHolder>() {
 

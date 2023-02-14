@@ -15,6 +15,10 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.play.core.review.ReviewManagerFactory
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
+
+
+//SettingsFragment
+
 @AndroidEntryPoint
 class SettingsFragment : Fragment() {
     private lateinit var binding : FragmentSettingsBinding
