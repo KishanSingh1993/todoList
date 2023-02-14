@@ -28,7 +28,7 @@ ToDoList App demonstrates modern Android development with Hilt, Coroutines, Live
 ## Architecture
 **ToDoListApp** is based on the MVVM architecture and the Repository pattern, which follows the [Google's official architecture guidance](https://developer.android.com/topic/architecture).
 
-![architecture](figure/figure0.png)
+![architecture](figure/figure1.png)
 
 [//]: # (## Room Database Structure)
 
